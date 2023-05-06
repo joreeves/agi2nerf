@@ -18,7 +18,7 @@ Open a shell (CMD, Powershell, Bash, etc.) and navigate to the directory with yo
 
 cd [PATH TO FOLDER]
 
-run the agi2nerf.py on this XML file using the following command, replacing the text in brackets […] with the file names and paths on your machine:
+Run the agi2nerf.py on this XML file using the following command, replacing the text in brackets […] with the file names and paths on your machine:
 
 ## Commands
 Example:
@@ -49,11 +49,11 @@ Arguments:
 |------------------------|-----------------|----------------------------------------------|
 | --xml_in               | None            | specify xml file location                    |
 | --out                  | transforms.json | specify output file path                     |
-| --imgfolder            | ./images/       | location of image folder                     |
+| --imgfolder            | .\images        | location of image folder                     |
 | --imgtype              | jpg             | ex.: jpg, png, ...                           |
 | --aabb_scale           | 16              | sets the aabb scale                          |
-| --no_scene_orientation | False           | disable the agisoft orientation              |
-| --no_scale             | False           | disable the agisoft scale                    |
+| --no_scene_orientation | False           | disable the Agisoft Metashape orientation    |
+| --no_scale             | False           | disable the Agisoft Metashape scale          |
 | --no_center            | False           | disable the scene centering                  |
 | --plot                 | False           | display the camera positions                 |
 | --camera_size          | 0.1             | the size of the displayed cameras            |
